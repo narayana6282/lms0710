@@ -178,11 +178,11 @@ CKEDITOR_CONFIGS = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME':  'lmsdb',
-        'HOST':'lims.chse0qya6glk.ap-south-1.rds.amazonaws.com',
+        'NAME':  'lmspip',
+        'HOST':'lmspip.cziseau6malq.us-east-1.rds.amazonaws.com',
         'PORT':'3306',
         'USER':"admin",
-        "PASSWORD":"Admin1234",
+        "PASSWORD":"admin1234",
         'OPTIONS': {
                      "init_command": "SET foreign_key_checks = 0;",
                      
