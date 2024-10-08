@@ -178,7 +178,7 @@ CKEDITOR_CONFIGS = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME':  'lmspip',
+        'NAME':  'lmsdb',
         'HOST':'lmspip.cziseau6malq.us-east-1.rds.amazonaws.com',
         'PORT':'3306',
         'USER':"admin",
